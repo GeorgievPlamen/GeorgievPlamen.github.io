@@ -16,7 +16,7 @@ export default function Projects() {
         <Card sx={{ maxWidth: 360, backgroundColor: "#323232" }}>
           <CardMedia
             sx={{ height: 180 }}
-            image="./public/Images/wordle.png"
+            image="../public/Images/wordle.png"
             title="Wordle Placeholder"
           />
           <CardContent>

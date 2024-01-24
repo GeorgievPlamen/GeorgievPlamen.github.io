@@ -11,7 +11,7 @@ export default function Skills() {
           alignItems: "center",
         }}
       >
-        <img src="./public/Images/icons8-c-sharp-logo-50.png" alt="C-Sharp" />
+        <img src="../public/Images/icons8-c-sharp-logo-50.png" alt="C-Sharp" />
         <Typography color={"textPrimary"}>Started with C#</Typography>
       </Box>
     </MyBox>
