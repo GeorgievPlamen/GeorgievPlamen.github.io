@@ -11,7 +11,7 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { LinkedIn } from "@mui/icons-material";
-import { useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 
 const pages = ["Home", "About", "Skills", "Projects"];
 
@@ -130,8 +130,20 @@ export default function Navbar() {
             ))}
           </Box>
           <Box display={"flex"} justifyContent={"center"}>
-            <GitHubIcon sx={{ margin: "0.2em" }} />
-            <LinkedIn sx={{ margin: "0.2em" }} />
+            <Link
+              style={{ color: "white", textDecoration: "none" }}
+              to={"https://github.com/GeorgievPlamen"}
+              target="_blank"
+            >
+              <GitHubIcon sx={{ margin: "0.2em" }} />
+            </Link>
+            <Link
+              style={{ color: "white", textDecoration: "none" }}
+              to={"https://www.linkedin.com/in/plamen-georgiev-b857552a2/"}
+              target="_blank"
+            >
+              <LinkedIn sx={{ margin: "0.2em" }} />
+            </Link>
           </Box>
         </Toolbar>
       </Container>
