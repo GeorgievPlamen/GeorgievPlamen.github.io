@@ -1,25 +1,19 @@
 import { ChevronRight } from "@mui/icons-material";
-import { Avatar, Box, Button, Typography } from "@mui/material";
+import { Avatar, Button, Typography } from "@mui/material";
 import { useNavigate } from "react-router-dom";
+import MyBox from "../app/components/MyBox";
 
 export default function Home() {
   const nav = useNavigate();
   return (
-    <Box
-      display={"flex"}
-      flexDirection={"column"}
-      justifyContent={"center"}
-      alignItems={"center"}
-      id="home"
-      sx={{
-        padding: { xs: "20px", md: "100px" },
-      }}
-    >
+    <MyBox height="100vh">
       <Avatar sx={{ height: "200px", width: "200px" }} alt="My Picture" />
       <Typography variant="h2" padding={"0.3em"}>
         Hi, I'm Plamen
       </Typography>
-      <Typography variant="h5">a software developer</Typography>
+      <Typography variant="h5" color={"textSecondary"}>
+        a software developer
+      </Typography>
       <Button
         sx={{ margin: "2em" }}
         onClick={() => {
@@ -29,6 +23,6 @@ export default function Home() {
         <Typography>More about me</Typography>
         <ChevronRight />
       </Button>
-    </Box>
+    </MyBox>
   );
 }

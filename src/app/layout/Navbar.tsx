@@ -92,7 +92,9 @@ export default function Navbar() {
                     navigate(page);
                   }}
                 >
-                  <Typography textAlign="center">{page}</Typography>
+                  <Typography textAlign="center" color={"textSecondary"}>
+                    {page}
+                  </Typography>
                 </MenuItem>
               ))}
             </Menu>

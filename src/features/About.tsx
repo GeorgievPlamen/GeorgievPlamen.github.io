@@ -1,17 +1,9 @@
-import { Box, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
+import MyBox from "../app/components/MyBox";
 
 export default function About() {
   return (
-    <Box
-      display={"flex"}
-      flexDirection={"column"}
-      justifyContent={"center"}
-      alignItems={"center"}
-      id="home"
-      sx={{
-        padding: { xs: "20px", md: "100px" },
-      }}
-    >
+    <MyBox>
       <Typography variant="h2" padding={"0.3em"}>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi est
         repellendus fugit laborum facilis ab ea assumenda dolores commodi nemo
@@ -31,6 +23,6 @@ export default function About() {
         veritatis? Mollitia dignissimos, velit sunt officia totam fugiat tempora
         quae voluptatum!
       </Typography>
-    </Box>
+    </MyBox>
   );
 }
