@@ -43,7 +43,6 @@ export default function Navbar() {
             variant="h6"
             noWrap
             component={"a"}
-            href="#app-bar-with-responsive-menu"
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
@@ -102,7 +101,6 @@ export default function Navbar() {
             variant="h6"
             noWrap
             component="a"
-            href="#app-bar-with-responsive-menu"
             sx={{
               mr: 2,
               display: { xs: "flex", md: "none" },
@@ -135,14 +133,26 @@ export default function Navbar() {
               to={"https://github.com/GeorgievPlamen"}
               target="_blank"
             >
-              <GitHubIcon sx={{ margin: "0.2em" }} />
+              <GitHubIcon
+                sx={{
+                  margin: { xs: "0.35em", md: "0.7em" },
+                  width: { xs: "1em", md: "1.7em" },
+                  height: { xs: "1em", md: "1.7em" },
+                }}
+              />
             </Link>
             <Link
               style={{ color: "white", textDecoration: "none" }}
               to={"https://www.linkedin.com/in/plamen-georgiev-b857552a2/"}
               target="_blank"
             >
-              <LinkedIn sx={{ margin: "0.2em" }} />
+              <LinkedIn
+                sx={{
+                  margin: { xs: "0.35em", md: "0.7em" },
+                  width: { xs: "1em", md: "1.7em" },
+                  height: { xs: "1em", md: "1.7em" },
+                }}
+              />
             </Link>
           </Box>
         </Toolbar>

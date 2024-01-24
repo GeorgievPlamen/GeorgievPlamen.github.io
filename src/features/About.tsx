@@ -7,7 +7,10 @@ export default function About() {
       flexDirection={"column"}
       justifyContent={"center"}
       alignItems={"center"}
-      padding={"100px"}
+      id="home"
+      sx={{
+        padding: { xs: "20px", md: "100px" },
+      }}
     >
       <Typography variant="h2" padding={"0.3em"}>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi est
