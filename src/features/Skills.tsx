@@ -1,36 +1,44 @@
-import { Box, Typography } from "@mui/material";
+import { Grid } from "@mui/material";
 import MyBox from "../app/components/MyBox";
-import CSharpLogo from "/public/Images/icons8-c-sharp-logo-50.png";
+import cSharp from "/public/Images/cSharp.png";
+import css3 from "/public/Images/css3.png";
+import html5 from "/public/Images/html5.png";
+import database from "/public/Images/database.png";
+import docker from "/public/Images/docker.png";
+import github from "/public/Images/github.png";
+import javascript from "/public/Images/javascript.png";
+import reactLogo from "/public/Images/react.png";
+import restApi from "/public/Images/restApi.png";
+import vscode from "/public/Images/vscode.png";
+import SkillsContainer from "../app/components/SkillsContainer";
+import Skill from "../app/models/skill";
 
 export default function Skills() {
+  const skills = [
+    new Skill(cSharp, "C#"),
+    new Skill(restApi, "REST"),
+    new Skill(database, "RDBM's"),
+    new Skill(javascript, "JavaScript"),
+    new Skill(reactLogo, "React"),
+    new Skill(vscode, "VS Code"),
+    new Skill(github, "GitHub"),
+    new Skill(html5, "HTML5"),
+    new Skill(css3, "CSS"),
+    new Skill(docker, "Docker"),
+  ];
+
   return (
-    <MyBox height="100vh">
-      <Box
-        sx={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
+    <MyBox>
+      <Grid
+        container
+        columns={{ xs: 3, md: 5 }}
+        rowSpacing={5}
+        justifyContent={"center"}
       >
-        <img src={CSharpLogo} alt="logo" />
-        1
-        <img
-          src="./portfolio/Images/icons8-c-sharp-logo-50.png"
-          alt="C-Sharp"
-        />
-        2<img src="public/Images/icons8-c-sharp-logo-50.png" alt="C-Sharp" />
-        3<img src="./Images/icons8-c-sharp-logo-50.png" alt="C-Sharp" />
-        4<img src="./public/Images/icons8-c-sharp-logo-50.png" alt="C-Sharp" />
-        5
-        <img
-          src="./portfolio/public/Images/icons8-c-sharp-logo-50.png"
-          alt="C-Sharp"
-        />
-        <img src={CSharpLogo} alt="logo" />
-        <img src={CSharpLogo} alt="logo" />
-        <img src={CSharpLogo} alt="logo" />
-        <Typography color={"textPrimary"}>Started with C#</Typography>
-      </Box>
+        {skills.map((skill) => (
+          <SkillsContainer img={skill.img} description={skill.description} />
+        ))}
+      </Grid>
     </MyBox>
   );
 }

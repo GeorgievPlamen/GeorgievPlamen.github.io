@@ -8,6 +8,7 @@ import {
   Divider,
 } from "@mui/material";
 import MyBox from "../app/components/MyBox";
+import wordle from "/public/Images/wordle.png";
 
 export default function Projects() {
   return (
@@ -16,7 +17,7 @@ export default function Projects() {
         <Card sx={{ maxWidth: 360, backgroundColor: "#323232" }}>
           <CardMedia
             sx={{ height: 180 }}
-            image="./GeorgievPlamen.github.io/portfolio/Images/wordle.png"
+            image={wordle}
             title="Wordle Placeholder"
           />
           <CardContent>
@@ -39,14 +40,10 @@ export default function Projects() {
         <Card
           sx={{ maxWidth: 360, backgroundColor: "#323232", marginTop: "50px" }}
         >
-          <CardMedia
-            sx={{ height: 180 }}
-            image="./portfolio/Images/wordle.png"
-            title="Wordle Placeholder"
-          />
+          <CardMedia sx={{ height: 180 }} title="Wordle Placeholder" />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              Wordle Placeholder
+              Future Project Placeholder
             </Typography>
             <Typography variant="body2" color="text.secondary">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis

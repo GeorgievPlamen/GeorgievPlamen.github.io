@@ -6,7 +6,7 @@ import MyBox from "../app/components/MyBox";
 export default function Home() {
   const nav = useNavigate();
   return (
-    <MyBox height="100vh">
+    <MyBox>
       <Avatar sx={{ height: "200px", width: "200px" }} alt="My Picture" />
       <Typography variant="h2" padding={"0.3em"}>
         Hi, I'm Plamen

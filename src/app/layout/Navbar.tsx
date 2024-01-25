@@ -113,7 +113,7 @@ export default function Navbar() {
               textDecoration: "none",
             }}
           >
-            Plamen Georgiev
+            P. Georgiev
           </Typography>
           <Box sx={{ display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
