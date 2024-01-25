@@ -12,7 +12,11 @@ export default function Skills() {
         }}
       >
         <img
-          src="./GeorgievPlamen.github.io/portfolio/Images/icons8-c-sharp-logo-50.png"
+          src="./portfolio/Images/icons8-c-sharp-logo-50.png"
+          alt="C-Sharp"
+        />
+        <img
+          src="./portfolio/public/Images/icons8-c-sharp-logo-50.png"
           alt="C-Sharp"
         />
         <Typography color={"textPrimary"}>Started with C#</Typography>

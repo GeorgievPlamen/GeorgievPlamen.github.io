@@ -12,7 +12,7 @@ function App() {
           marginTop: "7em",
           margin: "0",
           padding: "0",
-          height: { xs: "100%", md: "100vh" },
+          height: "minmax(100vh, 100%)",
           background: "linear-gradient(62deg, #3a3d40 0%, #181719 100%)",
         }}
       >
