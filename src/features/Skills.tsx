@@ -17,7 +17,7 @@ export default function Skills() {
   const skills = [
     new Skill(cSharp, "C#"),
     new Skill(restApi, "REST"),
-    new Skill(database, "RDBM's"),
+    new Skill(database, "SQL"),
     new Skill(javascript, "JavaScript"),
     new Skill(reactLogo, "React"),
     new Skill(vscode, "VS Code"),
@@ -32,7 +32,8 @@ export default function Skills() {
       <Grid
         container
         columns={{ xs: 3, md: 5 }}
-        rowSpacing={5}
+        rowSpacing={3}
+        columnSpacing={{ xs: 5 }}
         justifyContent={"center"}
       >
         {skills.map((skill) => (
