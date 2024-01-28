@@ -7,7 +7,7 @@ interface Props {
 
 export default function SkillsContainer({ img, description }: Props) {
   return (
-    <Grid item xs={1} justifyContent={"center"}>
+    <Grid item xs={0} justifyContent={"center"}>
       <Box
         sx={{
           display: "flex",

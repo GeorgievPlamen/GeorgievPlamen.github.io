@@ -35,6 +35,7 @@ export default function Skills() {
         rowSpacing={3}
         columnSpacing={{ xs: 5 }}
         justifyContent={"center"}
+        maxWidth={"800px"}
       >
         {skills.map((skill) => (
           <SkillsContainer img={skill.img} description={skill.description} />

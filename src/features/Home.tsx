@@ -8,19 +8,20 @@ export default function Home() {
   return (
     <MyBox>
       <Avatar sx={{ height: "200px", width: "200px" }} alt="My Picture" />
-      <Typography variant="h2" padding={"0.3em"}>
+      <Typography variant="h2" padding={"0.3em"} align="center">
         Hi, I'm Plamen
       </Typography>
-      <Typography variant="h5" color={"textSecondary"}>
+      <Typography variant="h5" color={"textSecondary"} align="center">
         a software developer
       </Typography>
       <Button
-        sx={{ margin: "2em" }}
+        sx={{ marginTop: "2em" }}
+        variant="contained"
         onClick={() => {
           nav("../about");
         }}
       >
-        <Typography>More about me</Typography>
+        <Typography align="center">More about me</Typography>
         <ChevronRight />
       </Button>
     </MyBox>
