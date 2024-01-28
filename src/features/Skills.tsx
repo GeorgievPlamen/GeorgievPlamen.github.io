@@ -38,7 +38,11 @@ export default function Skills() {
         maxWidth={"800px"}
       >
         {skills.map((skill) => (
-          <SkillsContainer img={skill.img} description={skill.description} />
+          <SkillsContainer
+            key={skill.description}
+            img={skill.img}
+            description={skill.description}
+          />
         ))}
       </Grid>
     </MyBox>
