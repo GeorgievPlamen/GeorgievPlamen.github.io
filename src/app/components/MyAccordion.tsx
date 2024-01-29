@@ -30,7 +30,7 @@ export default function MyAccordion({ tldr, full }: Props) {
       onChange={handleChange("panel1")}
     >
       <AccordionSummary
-        expandIcon={<ExpandMoreIcon />}
+        expandIcon={<ExpandMoreIcon color="primary" />}
         aria-controls="panel1bh-content"
         id="panel1bh-header"
       >
