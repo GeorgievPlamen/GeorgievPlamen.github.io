@@ -12,6 +12,7 @@ import restApi from "/public/Images/restApi.png";
 import vscode from "/public/Images/vscode.png";
 import SkillsContainer from "../app/components/SkillsContainer";
 import Skill from "../app/models/skill";
+import NextButtion from "../app/components/NextButton";
 
 export default function Skills() {
   const skills = [
@@ -45,6 +46,7 @@ export default function Skills() {
           />
         ))}
       </Grid>
+      <NextButtion text="My Projects" path="../projects" />
     </MyBox>
   );
 }

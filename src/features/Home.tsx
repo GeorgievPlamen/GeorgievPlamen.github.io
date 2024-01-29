@@ -1,10 +1,8 @@
-import { ChevronRight } from "@mui/icons-material";
-import { Avatar, Button, Typography } from "@mui/material";
-import { useNavigate } from "react-router-dom";
+import { Avatar, Typography } from "@mui/material";
 import MyBox from "../app/components/MyBox";
+import NextButtion from "../app/components/NextButton";
 
 export default function Home() {
-  const nav = useNavigate();
   return (
     <MyBox>
       <Avatar sx={{ height: "200px", width: "200px" }} alt="My Picture" />
@@ -14,16 +12,7 @@ export default function Home() {
       <Typography variant="h5" color={"textSecondary"} align="center">
         a software developer
       </Typography>
-      <Button
-        sx={{ marginTop: "2em" }}
-        variant="contained"
-        onClick={() => {
-          nav("../about");
-        }}
-      >
-        <Typography align="center">More about me</Typography>
-        <ChevronRight />
-      </Button>
+      <NextButtion text="More about me" path="../about" />
     </MyBox>
   );
 }

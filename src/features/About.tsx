@@ -1,5 +1,6 @@
 import { Typography } from "@mui/material";
 import MyBox from "../app/components/MyBox";
+import NextButtion from "../app/components/NextButton";
 
 export default function About() {
   return (
@@ -23,6 +24,7 @@ export default function About() {
         veritatis? Mollitia dignissimos, velit sunt officia totam fugiat tempora
         quae voluptatum!
       </Typography>
+      <NextButtion text="My Skills" path="../skills" />
     </MyBox>
   );
 }
