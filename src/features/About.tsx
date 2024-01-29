@@ -27,7 +27,7 @@ export default function About() {
         }}
       >
         <Typography
-          variant="h2"
+          variant="h3"
           padding={"0.5em"}
           sx={{ alignSelf: "start", color: "#be3144" }}
         >
@@ -35,7 +35,7 @@ export default function About() {
         </Typography>
         <MyAccordion tldr={webTLDR} full={webFull} />
         <Typography
-          variant="h2"
+          variant="h3"
           padding={"0.5em"}
           sx={{ alignSelf: "end", color: "#be3144" }}
         >
@@ -43,7 +43,7 @@ export default function About() {
         </Typography>
         <MyAccordion tldr={personalTLDR} full={personalFull} />
         <Typography
-          variant="h2"
+          variant="h3"
           padding={"0.5em"}
           sx={{ alignSelf: "start", color: "#be3144" }}
         >
