@@ -15,7 +15,7 @@ export default function MyBox({ children, height }: Props) {
       sx={{
         minHeight: "100vh",
         height: { height },
-        padding: { xs: "70px", md: "100px" },
+        padding: { xs: "20px", md: "100px" },
       }}
     >
       {children}
