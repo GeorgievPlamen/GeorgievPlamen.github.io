@@ -9,7 +9,12 @@ export default function Home() {
       <Typography variant="h2" padding={"0.3em"} align="center">
         Hi, I'm Plamen
       </Typography>
-      <Typography variant="h5" color={"textSecondary"} align="center">
+      <Typography
+        variant="h5"
+        color={"textSecondary"}
+        align="center"
+        sx={{ fontStyle: "italic" }}
+      >
         a software developer
       </Typography>
       <NextButtion text="More about me" path="../about" />
