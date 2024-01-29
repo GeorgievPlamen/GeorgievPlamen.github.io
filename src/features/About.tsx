@@ -12,7 +12,7 @@ export default function About() {
   const personalTLDR =
     "Away from the keyboard, you'll often find me strumming (or shredding) the strings of my guitar, providing a perfect balance to the intricacies of coding. ";
   const personalFull =
-    "Back at the keyboard again, I'll probably be playing some video game, lost in the world for a bit. And when the evening sets in, there's nothing like a good horror or thriller movie to keep me on the edge of my seat. I'd love to travel abroad more, while I've spent most of my life in Bulgaria, I've also lived in the UK for a couple of years, France for a few weeks, and Greece for a few days. Nevertheless, there's still a lot more to explore out there.";
+    "Back at the keyboard again, I'll probably be playing some video game, lost in the world for a bit. And when the evening sets in, there's nothing like a good horror or thriller movie to keep me on the edge of my seat. I'd love to travel abroad more, while I've spent most of my life in Bulgaria, I've also lived in the UK for a couple of years, France for a few months. Nevertheless, there's still a lot more to explore out there.";
 
   const learningTLDR =
     "I take pride in being a self-taught developer, navigating the huge amount of knowledge out there with determination and curiosity. My gratitude goes to platforms like freecodecamp.org, Udemy and of course YouTube.";
