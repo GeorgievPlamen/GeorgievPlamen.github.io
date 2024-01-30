@@ -13,7 +13,9 @@ export default function MyBox({ children, height }: Props) {
       alignItems={"center"}
       id="home"
       sx={{
+        margin: "0 auto",
         minHeight: "100vh",
+        maxWidth: "1200px",
         height: { height },
         padding: { xs: "20px", md: "100px" },
       }}
