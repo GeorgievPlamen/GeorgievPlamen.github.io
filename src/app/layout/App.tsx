@@ -1,3 +1,4 @@
+import "../models/styles.css";
 import Navbar from "./Navbar";
 import { Outlet } from "react-router-dom";
 import { Box } from "@mui/material";
