@@ -29,7 +29,11 @@ export default function About() {
         <Typography
           variant="h3"
           padding={"0.5em"}
-          sx={{ alignSelf: "start", color: "#be3144" }}
+          sx={{
+            marginTop: "20px",
+            alignSelf: "start",
+            color: "#be3144",
+          }}
         >
           Web Development
         </Typography>
