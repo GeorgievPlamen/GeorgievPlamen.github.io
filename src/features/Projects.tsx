@@ -12,6 +12,7 @@ export default function Projects() {
           columns={{ xs: 1, md: 2 }}
           columnSpacing={{ xs: 5 }}
           justifyContent={"center"}
+          sx={{ marginTop: "20px" }}
         >
           <MyCard
             img={wordle}
