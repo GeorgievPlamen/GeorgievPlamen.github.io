@@ -1,5 +1,4 @@
 import { Grid } from "@mui/material";
-import MyBox from "../app/components/MyBox";
 import cSharp from "/public/Images/cSharp.png";
 import css3 from "/public/Images/css3.png";
 import html5 from "/public/Images/html5.png";
@@ -12,7 +11,6 @@ import restApi from "/public/Images/restApi.png";
 import vscode from "/public/Images/vscode.png";
 import SkillsContainer from "../app/components/SkillsContainer";
 import Skill from "../app/models/skill";
-import NextButtion from "../app/components/NextButton";
 
 export default function Skills() {
   const skills = [
@@ -29,7 +27,7 @@ export default function Skills() {
   ];
 
   return (
-    <MyBox>
+    <>
       <Grid
         container
         columns={{ xs: 3, md: 5 }}
@@ -37,6 +35,9 @@ export default function Skills() {
         columnSpacing={{ xs: 5 }}
         justifyContent={"center"}
         maxWidth={"800px"}
+        sx={{
+          marginTop: "10px",
+        }}
       >
         {skills.map((skill) => (
           <SkillsContainer
@@ -46,7 +47,6 @@ export default function Skills() {
           />
         ))}
       </Grid>
-      <NextButtion text="My Projects" path="../projects" />
-    </MyBox>
+    </>
   );
 }

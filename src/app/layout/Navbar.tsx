@@ -13,7 +13,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import { LinkedIn } from "@mui/icons-material";
 import { Link, useNavigate } from "react-router-dom";
 
-const pages = ["Home", "About", "Skills", "Projects"];
+const pages = ["Home", "About", "Projects"];
 
 export default function Navbar() {
   const navigate = useNavigate();

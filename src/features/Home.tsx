@@ -1,6 +1,7 @@
 import { Avatar, Typography } from "@mui/material";
 import MyBox from "../app/components/MyBox";
 import NextButtion from "../app/components/NextButton";
+import Skills from "./Skills";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       >
         a software developer
       </Typography>
+      <Skills />
       <NextButtion text="More about me" path="../about" />
     </MyBox>
   );

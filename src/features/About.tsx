@@ -56,7 +56,7 @@ export default function About() {
         <MyAccordion tldr={learningTLDR} full={learningFull} />
       </Box>
 
-      <NextButtion text="My Skills" path="../skills" />
+      <NextButtion text="Projects" path="../projects" />
     </MyBox>
   );
 }
