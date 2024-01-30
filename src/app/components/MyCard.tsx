@@ -30,6 +30,7 @@ export default function MyCard({
           marginTop: "50px",
           maxWidth: 360,
           backgroundColor: "#323232",
+          borderRadius: "10px",
         }}
       >
         <CardMedia sx={{ height: 180 }} image={img} title={title} />

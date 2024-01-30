@@ -21,11 +21,13 @@ export default function MyAccordion({ tldr, full }: Props) {
   return (
     <Accordion
       sx={{
-        margin: "0 auto",
+        margin: "10px auto",
         padding: "0",
         maxWidth: "100%",
         backgroundColor: "#323232",
+        borderRadius: "10px",
       }}
+      square={true}
       expanded={expanded === "panel1"}
       onChange={handleChange("panel1")}
     >
