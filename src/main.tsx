@@ -42,6 +42,17 @@ const theme = createTheme({
       secondary: "#be3144",
     },
   },
+  components: {
+    MuiAccordion: {
+      styleOverrides: {
+        root: {
+          "::before": {
+            display: "none",
+          },
+        },
+      },
+    },
+  },
 });
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
