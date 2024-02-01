@@ -9,7 +9,7 @@ export default function Home() {
     <MyBox>
       <Avatar
         src={me}
-        sx={{ marginTop: "50px", height: "200px", width: "200px" }}
+        sx={{ marginTop: "50px", height: "220px", width: "200px" }}
         alt="My Picture"
       />
       <Typography variant="h2" padding={"0.3em"} align="center">
