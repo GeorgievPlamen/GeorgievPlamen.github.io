@@ -1,4 +1,5 @@
 import { Avatar, Typography } from "@mui/material";
+import me from "/public/Images/IMG_portfolio.jpg";
 import MyBox from "../app/components/MyBox";
 import NextButtion from "../app/components/NextButton";
 import Skills from "./Skills";
@@ -7,6 +8,7 @@ export default function Home() {
   return (
     <MyBox>
       <Avatar
+        src={me}
         sx={{ marginTop: "50px", height: "200px", width: "200px" }}
         alt="My Picture"
       />
