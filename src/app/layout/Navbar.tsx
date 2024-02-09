@@ -123,7 +123,15 @@ export default function Navbar() {
                   navigate(page);
                   handleCloseNavMenu();
                 }}
-                sx={{ my: 2, color: "white", display: "block" }}
+                sx={{
+                  "&:hover": {
+                    backgroundColor: "#434343",
+                  },
+                  transition: "background-color 0.5s",
+                  my: 2,
+                  color: "white",
+                  display: "block",
+                }}
               >
                 {page}
               </Button>
