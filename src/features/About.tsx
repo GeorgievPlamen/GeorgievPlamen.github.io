@@ -5,7 +5,7 @@ import MyAccordion from "../app/components/MyAccordion";
 
 export default function About() {
   const webTLDR =
-    "I love working with C# and JS/TS - .Net as backend and React(tsx) as frontend. I'm currently living, working and studying in the charming Bulgarian city of Plovdiv. For the past two years, I've been immersing myself in the world of programming, primarily as a self-taught. I'm currently working on my Bachelor's degree to further solidify my knowledge. If you are looking for a developer who can write clean and maintainable code and assist with designing frontend and backend technologies, feel free to contact me on LinkedIn.";
+    "I love working with C# and JS/TS - .Net as backend and React as frontend. I'm currently living, working and studying in the charming Bulgarian city of Plovdiv. For the past two years, I've been immersing myself in the world of programming, primarily as a self-taught. I'm currently working on my Bachelor's degree to further solidify my knowledge. If you are looking for a developer who can write clean and maintainable code and assist with designing frontend and backend technologies, feel free to contact me on LinkedIn.";
   const webFull =
     "So far my journey as a developer has been nothing short of thrilling. I find the process of creating software fascinating in its entirety, from front end to back end, business logic to software design. Whether it is gaining high-level understanding of a component and figuring out how it connects with the rest of the software, or designing the low-level systems, endpoints and logic to serve the users' needs, I always look forward to practice the new concepts I come across and implement them in a project.";
 
