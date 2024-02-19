@@ -18,7 +18,7 @@ export default function Projects() {
             img={wordle}
             title={"MyWordle"}
             description={
-              "My version of Wordle, building it for fun. Techstack is .Net, React+Redux and PostgreSQL. Hosted on fly.io, might take a couple of seconds to load initially. Still need to implement animations and clean a few things."
+              "My version of Wordle, building it for fun. Techstack is .Net, React+Redux and PostgreSQL. Hosted on fly.io, might take a couple of seconds to load initially. Still need to implement animations and clean a few things. Hope you like it."
             }
             liveLink={"https://mywordle.fly.dev/"}
             sourceLink={"https://github.com/GeorgievPlamen/Wordle"}
