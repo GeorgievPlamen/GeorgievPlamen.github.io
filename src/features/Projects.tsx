@@ -16,11 +16,11 @@ export default function Projects() {
         >
           <MyCard
             img={wordle}
-            title={"Wordle Placeholder"}
+            title={"MyWordle"}
             description={
               "My version of Wordle, building it for fun. Techstack is .Net, React+Redux and PostgreSQL. Hosted on fly.io, might take a couple of seconds to load initially. Still need to implement animations and clean a few things."
             }
-            liveLink={"https://mywordle.fly.dev/game"}
+            liveLink={"https://mywordle.fly.dev/"}
             sourceLink={"https://github.com/GeorgievPlamen/Wordle"}
           />
         </Grid>
