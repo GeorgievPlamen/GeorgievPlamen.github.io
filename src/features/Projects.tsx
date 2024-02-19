@@ -18,9 +18,9 @@ export default function Projects() {
             img={wordle}
             title={"Wordle Placeholder"}
             description={
-              "My version of Wordle, building it for fun. Techstack is .Net, React and SQLite(will be PostgreSQL when ready). Plan is to host on fly.io, current live link takes you to the original, but feel free to check out the source code."
+              "My version of Wordle, building it for fun. Techstack is .Net, React+Redux and PostgreSQL. Hosted on fly.io, might take a couple of seconds to load initially. Still need to implement animations and clean a few things."
             }
-            liveLink={"https://www.nytimes.com/games/wordle/index.html"}
+            liveLink={"https://mywordle.fly.dev/game"}
             sourceLink={"https://github.com/GeorgievPlamen/Wordle"}
           />
         </Grid>
