@@ -7,6 +7,7 @@ import Home from "./features/Home";
 import About from "./features/About";
 import Skills from "./features/Skills";
 import Projects from "./features/Projects";
+import Test from "./features/Test";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
       { path: "skills", element: <Skills /> },
       { path: "projects", element: <Projects /> },
       { path: "*", element: <Home /> },
+      { path: "test", element: <Test /> },
     ],
   },
 ]);
